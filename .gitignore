@@ -1,0 +1,17 @@
+# Secretos y entorno
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Datos locales de n8n (contienen credenciales cifradas y la encryption key)
+.n8n/
+database.sqlite
+n8n-data/
+
+# Sistema
+.DS_Store
+Thumbs.db
+node_modules/
